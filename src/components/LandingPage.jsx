@@ -65,7 +65,7 @@ const LandingPage = () => {
             <div className="name-titles">
               <h1 className="name">Aranya Sen</h1>
               <span className="title">
-                Frontend Developer, aspiring Full-Stack Developer.
+                Software Developer
               </span>
 
               <span className="info">
@@ -89,12 +89,10 @@ const LandingPage = () => {
             <div className="experience-section">
               <h2>Professional Experience</h2>
               <h3>
-                Frontend Developer with 1.5+ years of experience building
-                scalable, high-performance web applications using React.js,
-                JavaScript, and HTML, CSS. Skilled in collaborating with
-                cross-functional teams to deliver elegant user interfaces and
-                responsive UI. Experienced with API integration, JWT
-                authentication, and Agile methodology.
+                Frontend Developer with 2+ years of experience building
+                scalable, high-performance web applications using React.js, Next.js,
+                JavaScript, Node.js, Express and HTML, CSS. Skilled in collaborating with
+                cross-functional teams to deliver elegant user interfaces, responsive UI and full-stack applications.
               </h3>
             </div>
           </div>
