@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Aranya Sen | Software Engineer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive, and performance-optimized portfolio website built with the standard React + TypeScript ecosystem. This project showcases my technical skills, personal projects, and professional background with a premium, state-of-the-art developer experience.
 
-## Available Scripts
+![Portfolio Preview](https://aranyasen.github.io/myPortfolio/)
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **Responsive Design**: Mobile-first architecture with fluid transitions and vertical stacking for small screens.
+- **Premium Aesthetics**: Sleek dark mode using a custom glassmorphism design system.
+- **Dynamic Content**: Skills and projects are dynamically mapped from centralized constants for easy maintenance.
+- **Modern Navigation**: Dual navigation system featuring a desktop sidebar and a responsive mobile overlay.
+- **Smooth Interaction**: Integrated scroll-snapping and micro-animations using Tailwind CSS utility classes.
+- **Iconography**: Unified icon system powered by `lucide-react`.
 
-Runs the app in the development mode.\
+## 🛠️ Tech Stack
+
+- **Core**: [React 19](https://reactjs.org/)
+- **Language**: [TypeScript 6](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: [GitHub Pages](https://pages.github.com/)
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/          # Reusable UI components (Intro, Skills, Projects, etc.)
+├── constants/           # Centralized configuration and content (SKILLS, projects)
+├── hooks/               # Custom React hooks for navigation and UI logic
+├── page/                # Main layout and assembly (LandingPage)
+├── types/               # TypeScript interfaces and type definitions
+└── assets/              # Static images and global styles
+```
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AranyaSen/aranyasen.github.io.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd my-portfolio
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+### Running Locally
+
+To start the development server:
+
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Building for Production
 
-### `npm test`
+To create an optimized production build:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm run build
+```
 
-### `npm run build`
+## 📄 License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the [MIT License](LICENSE).
