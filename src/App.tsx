@@ -1,17 +1,16 @@
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import LandingPage from "./components/LandingPage";
+import LandingPage from "./page/LandingPage";
 import NotFound from "./components/NotFound";
 
-function App() {
+const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/myPortfolio" Component={LandingPage} />
-        <Route path="*" Component={NotFound}/>
+        <Route path="/myPortfolio" element={<LandingPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
